@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"target": "es5",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"jsx": "react-jsx",
+		"esModuleInterop": true,
+		"baseUrl": "./src",
+		"paths": {
+			"view/*": ["view/*"],
+			"services/*": ["services/*"],
+			"constants/*": ["constants/*"],
+			"routes/*": ["routes/*"],
+			"types/*": ["types/*"],
+			"utils/*": ["utils/*"]
+		}
+	},
+	"files": ["declarations.d.ts"],
+	"exclude": ["node_modules", "**/node_modules/*", "dist"]
+}
